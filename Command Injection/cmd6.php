@@ -16,3 +16,8 @@ if (preg_match('/^[-a-z0-9]+\.a[cdefgilmnoqrstuwxz]|b[abdefghijmnorstvwyz]|c[acd
     
  ?>
 </pre>
+
+## FInal :
+Here domain parameter is validated by Regex , hence special characters are not allowed and only domains are allowed hence there is no bug in that. But 
+1.Command injection through hidden parameter server  POST parameter . 
+2.If it shows the out then no input sanitization and XSS is possible. 
