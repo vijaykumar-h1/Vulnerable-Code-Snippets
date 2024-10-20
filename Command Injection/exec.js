@@ -39,3 +39,9 @@ function runMe(cmd,res){
 }
 
 module.exports = router
+
+
+##Final : 
+1.Command injection in /run GET request through cmd parameter through spawn().
+2.Command injection in /gzip function through file_path parameter in POST through exec() command . 
+3.LFI or path traversal attack in /gzip function through file_path parameter in POST through exec() command . 
