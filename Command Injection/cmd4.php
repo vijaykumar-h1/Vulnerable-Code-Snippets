@@ -11,3 +11,7 @@
     system("whois " . $_POST["domain"]);
  ?>
 </pre>
+
+## FInal :
+1.Command injection through cmd POST Domain parameter . 
+2.If it shows the out then no input sanitization and XSS is possible. 
