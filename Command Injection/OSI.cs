@@ -22,3 +22,6 @@ namespace WebFox.Controllers
         }
     }
 }
+
+//Final : 
+Only Looks vulnerable for Command injection. binFile is vulnerable GET Parameter. 
