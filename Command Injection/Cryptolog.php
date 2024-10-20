@@ -37,3 +37,14 @@ function fTestFileshare($sharefolder)
   return trim($output);
 }
 ?>
+
+
+//Final : 
+1.IDOR Attack 
+2.SQL Injection Attack .
+3.Command Execution 
+Use of escapeshellarg() can prevent it. 
+4.Not Encryption or Hashing is used to store the passwords. 
+Consider using secure password hashing (e.g., password_hash() and password_verify()) instead of handling plaintext passwords.
+5.No Input Sanitization will lead to XSS issue .
+htmlspecialchars() can be used to stop XSS . 
