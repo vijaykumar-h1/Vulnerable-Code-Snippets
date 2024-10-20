@@ -14,3 +14,7 @@ hint("will exec 'whois' with the arg specified in the GET parameter \"domain\"")
     system("/usr/bin/whois " . $_GET["domain"]);
  ?>
 </pre>
+
+## FInal :
+1.Command injection through cmd GET Domain parameter . 
+2.If it shows the out then no input sanitization and XSS is possible. 
